@@ -11,7 +11,7 @@ function search() {
 
   if (!keys.length) return;
 
-  if (keys[0] !== "countries") {
+  if (keys[0] !== "countrys") {
     displayData = data[keys[0]];
   } else {
     displayData = data[keys[0]]
