@@ -6,9 +6,9 @@ function search() {
   const text = document.getElementById("search").value;
 
   const keys = Object.keys(data).filter((value) =>
-    value.toLocaleLowerCase().includes(text.toLocaleLowerCase()),
+    value.toLocaleLowerCase().includes(text.toLocaleLowerCase().trim()),
   );
-
+  
   if (!keys.length) return;
 
   if (keys[0] !== "countrys") {
