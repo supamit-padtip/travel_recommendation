@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Travel Bloom</title>
+    <link rel="stylesheet" href=".\travel_recommendation.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Travel Bloom</h1>
+      <ul>
+        <li><a id="home">Home </a></li>
+        <li><a id="about_us" href="./about_us.html">About Us </a></li>
+        <li><a id="contact" href="./contact_us.html">Contact Us </a></li>
+        <li>
+          <input
+            type="text"
+            id="search"
+            placeholder="Enter a destination or keyword"
+          />
+        </li>
+        <li><button id="btn_search">Search</button></li>
+        <li><button id="btn_clear">Clear</button></li>
+      </ul>
+    </nav>
+    <div class="main">
+      <section class="side-bar">
+        <img class="icon" src="./instagram.png" alt="" />
+        <img class="icon" src="./facebook-app-symbol.png" alt="" />
+        <img class="icon" src="./twitter.png" alt="" />
+        <img class="icon" src="./youtube.png" alt="" />
+      </section>
+      <section class="content">
+        <h1 class="header">
+          Explore <br />
+          Dream <br />
+          Destination
+        </h1>
+        <p>
+          it encourages explore of unfamiliar <br />
+          territores, embracing diverse cultures and <br />
+          landscapes, while pursuing the desired <br />
+          destination that captivates the heart and <br />
+          ignites a sense of wonder.
+        </p>
+        <li><button id="btn_book">Book now</button></li>
+      </section>
+      <section id="recommendation" class="recommendation"></section>
+    </div>
+    <script type="module" src="./travel_recommendation.js"></script>
+  </body>
+</html>
